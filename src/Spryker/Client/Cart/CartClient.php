@@ -226,6 +226,7 @@ class CartClient extends AbstractClient implements CartClientInterface
      */
     public function validateQuote()
     {
+        die;
         return $this->getFactory()->getQuoteStorageStrategy()->validateQuote();
     }
 
